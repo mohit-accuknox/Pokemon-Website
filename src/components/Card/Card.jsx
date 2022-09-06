@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/Card.css";
 
 const Card = (data) => {
-//   console.log(data.data.name);
+  // console.log(data);
   return (
     <div>
       <div className="Card" key={data.data.id}>

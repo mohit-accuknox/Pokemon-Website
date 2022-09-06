@@ -2,7 +2,7 @@
     background-color: #16213E;
     padding: 2rem;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
 }
@@ -11,6 +11,11 @@
     color: white;
     font-size: 3rem;
     font-weight: 600;
+}
+
+.searchContainer{
+    width: 30%;
+    /* border: 2px solid white; */
 }
 
 @media screen and (max-width: 500px) {
