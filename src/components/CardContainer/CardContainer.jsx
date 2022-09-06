@@ -7,7 +7,7 @@ const CardContainer = () => {
   const [pokemonInfo, setPokemonInfo] = useState([]);
 
   useEffect(() => {
-    fetch("https://pokeapi.co/api/v2/pokemon?limit=10&offset=0")
+    fetch("https://pokeapi.co/api/v2/pokemon?limit=15&offset=0")
       .then((response) => response.json())
       .then((responseJson) => fetchPokemonData(responseJson.results));
   }, []);
