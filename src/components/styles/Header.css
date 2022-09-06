@@ -1,0 +1,14 @@
+.navBar{
+    background-color: #16213E;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+.title{
+    color: white;
+    font-size: 3rem;
+    font-weight: 600;
+}

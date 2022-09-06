@@ -1,0 +1,8 @@
+
+html,body{
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}

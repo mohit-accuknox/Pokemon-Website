@@ -1,0 +1,30 @@
+.Card{
+    /* border: 2px solid black; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    width: 300px;
+    height:400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #BFACE0;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.Card:hover{
+    transform: scale(1.1);
+}
+
+.name{
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.Card img{
+    width: 250px;
+    height: 250px;
+}

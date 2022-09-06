@@ -1,0 +1,31 @@
+.Card_Container{
+    margin: 4rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+    gap: 3rem;
+}
+
+/* .Card{
+    border: 2px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #BFACE0;
+}
+
+.name{
+    color: white;
+    font-size: 2.5rem;
+}
+
+.Card img{
+    width: 100%;
+} */
