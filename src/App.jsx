@@ -11,7 +11,7 @@ function App() {
 
   // const [inputvalue,setInputValue] = useState('');
 
-
+  console.log(input);
   return (
     <div className="App">
       <Header/>

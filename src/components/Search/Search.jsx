@@ -8,7 +8,8 @@ const Search = (search) => {
     const {setInput} = useContext(handleSearch);
 
     const handleInput = (e) => {
-        setInput(e.target.value)
+        const transformToLowerCase = e.target.value;
+        setInput(transformToLowerCase.toLowerCase());
     }
 
   return (
