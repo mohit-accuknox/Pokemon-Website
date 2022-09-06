@@ -1,16 +1,22 @@
-import { useState, useEffect } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
 import Header from './components/Header/Header'
 import CardContainer from './components/CardContainer/CardContainer'
+import {useSearchContext} from './components/SearchContext/SearchContext'
+import SearchCardContainer from './components/SearchCardContainer/SearchCardContainer'
+import { useState } from 'react'
 
 function App() {
+
+  const {input} = useSearchContext();
+
+  // const [inputvalue,setInputValue] = useState('');
 
 
   return (
     <div className="App">
       <Header/>
-      <CardContainer/>
+      {input? <SearchCardContainer/>: <CardContainer/>}
+      
     </div>
   )
 }

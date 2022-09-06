@@ -5,11 +5,11 @@ const Card = (data) => {
   // console.log(data);
   return (
     <div>
-      <div className="Card" key={data.data.id}>
+      <div className="Card">
         <h2 className="name">{data.data.name}</h2>
         <div className="imgContainer">
           <img
-            src={data.data.sprites.other.home.front_default}
+            src={data.data.sprites?.other?.home?.front_default}
             alt={data.name}
           />
         </div>

@@ -18,12 +18,33 @@
     /* border: 2px solid white; */
 }
 
+@media screen and (max-width: 1000px){
+    .navBar{
+        padding: 1rem;
+        height: 10vh;
+        justify-content: space-between;
+    }
+    .title{
+        font-size: 1.5rem;
+    }
+
+    .searchContainer{
+        width: 50%;
+    }
+}
+
 @media screen and (max-width: 500px) {
     .navBar{
         padding: 1rem;
         height: 10vh;
+        justify-content: space-between;
     }
     .title{
-        font-size: 1.8rem;
+        font-size: 1.1rem;
+    }
+
+    .searchContainer{
+        width: 50%;
+        border: 2px solid white;
     }
 }

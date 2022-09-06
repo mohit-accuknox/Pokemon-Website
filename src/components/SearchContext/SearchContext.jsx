@@ -1,4 +1,5 @@
 import React from 'react'
+import { useContext } from 'react';
 import { useState } from 'react';
 import { createContext } from 'react'
 
@@ -13,6 +14,11 @@ const SearchContext = ({children}) => {
         {children}
     </handleSearch.Provider>
   )
+}
+
+export const useSearchContext = () =>{
+  const context = useContext(handleSearch);
+  return context;
 }
 
 export default SearchContext
