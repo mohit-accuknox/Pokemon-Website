@@ -9,8 +9,10 @@ const SearchContext = ({children}) => {
 
     const [input,setInput] = useState('');
 
+    const [searchedPokemonData, setSearchedPokemonData] = useState([]);
+
   return (
-    <handleSearch.Provider value={{input,setInput}}>
+    <handleSearch.Provider value={{input,setInput,searchedPokemonData,setSearchedPokemonData}}>
         {children}
     </handleSearch.Provider>
   )
